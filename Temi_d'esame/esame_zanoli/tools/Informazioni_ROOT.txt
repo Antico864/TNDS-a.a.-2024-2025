@@ -1,0 +1,91 @@
+
+NB: I colori sono gli stessi per tutte le classi. 
+
+//====================================================
+//  Classe TLine: 
+//====================================================
+
+Numero	    Colore	         Costante      Stili di linea (SetLineStyle)
+1	    Nero	         kBlack        Linea continua(default)
+2	    Rosso	         kRed          Linea tratteggiata
+3	    Verde	         kGreen        Linea puntinata
+4	    Blu	             	 kBlue         Linea tratto-lungo + puntino
+5	    Giallo	         kYellow       Linea tratto-corto + puntino
+6	    Magenta	         kMagenta      Varianti di stili personalizzati
+7	    Ciano (Azzurro)	 kCyan         "
+8	    Grigio scuro	 kGray         "
+9	    Viola	         Nessuna       "
+28	    Marrone scuro	 Nessuna       "
+
+Per TLine il metodo Draw() va passato SENZA ARGOMENTI. 
+Al limite, se si vuole disegnale una TLine su un canvas che contiene un altro oggetto 
+visualizzandole entrambe, si può usare Draw("SAME"). 
+
+//====================================================
+//  Classe TGraph e simili (tipo TGraphErrors):
+//====================================================
+
+Proprietà	        Metodo	
+Colore linea	    SetLineColor(Int_t color)	
+Stile linea	        SetLineStyle(Int_t style)	
+Spessore linea	    SetLineWidth(Int_t width)	
+Forma dei marker	SetMarkerStyle(Int_t style)	
+Colore dei marker	SetMarkerColor(Int_t color)	
+Dimensione marker	SetMarkerSize(Float_t size)
+
+
+Stili di Marker (SetMarkerStyle):
+Numero	Forma Marker
+20	    Punto pieno (default)
+21	    Quadrato pieno
+22	    Triangolo pieno
+23	    Cerchio vuoto
+24	    Quadrato vuoto
+25	    Triangolo vuoto
+
+Barre di errore: 
+Colore linea	        SetLineColor()	
+Stile linea	            SetLineStyle()	
+Spessore linea	        SetLineWidth()	       	   Lo spessore è espresso in pixel.
+Forma marker	        SetMarkerStyle()	   Vedi sezione stili marker.
+Colore marker	        SetMarkerColor()	   Come per i colori linea.
+Dimensione marker	    SetMarkerSize()	       Float, valore predefinito 1.
+Colore barra d'errore	SetErrorLineColor()	   Specifica il colore delle barre di errore.
+Spessore barra errore	SetErrorLineWidth()	   Controlla lo spessore delle barre.
+Stile barra errore	    SetErrorLineStyle()	   Default=1 (linea continua).
+
+//====================================================
+//  Classe TH1F e simili (tipo TH1D o TH2F): 
+//====================================================
+
+Colori e Stili (Contorno e Riempimento)
+Proprietà	        Metodo	
+Colore linea	    	SetLineColor(Int_t color)	
+Stile linea	        SetLineStyle(Int_t style)	
+Spessore linea	    	SetLineWidth(Int_t width)	
+Colore riempimento	SetFillColor(Int_t color)	
+Stile riempimento	SetFillStyle(Int_t style)	
+
+
+Stili di Riempimento (SetFillStyle):
+Numero	    	Stile di Riempimento
+0	        Nessun riempimento
+1001	    	Riempimento pieno
+3001–3018	Tratteggio variabile
+
+//====================================================
+//  Configurazione assi (incluso classe TAxis): 
+//====================================================
+
+Metodi: 
+Titolo asse	            SetTitle(const char* title)	                Imposta il titolo dell'asse.
+Offset titolo	             SetTitleOffset(Float_t offset)	        Regola la distanza del titolo dall'asse. Default=1.
+Dimensione titolo	    SetTitleSize(Float_t size)	                Regola la dimensione del titolo. Default=0.04.
+Colore titolo	            SetTitleColor(Int_t color)	                Colore del testo del titolo.
+Allineamento titolo	    SetTitleAlign(Int_t align)	                Controlla l'allineamento. 11=sinistra, 21=centrato, 31=destra.
+Etichette (label)	    SetLabelOffset(Float_t offset)	        Regola la distanza delle etichette numeriche dall'asse.
+Dimensione etichette	    SetLabelSize(Float_t size)	                Cambia la dimensione delle etichette.
+Colore etichette	    SetLabelColor(Int_t color)	                Colore delle etichette numeriche.
+Allineamento etichette	    SetLabelAlign(Int_t align)	                Default: 11. Controlla l'allineamento verticale e orizzontale.
+N. divisioni	            SetNdivisions(Int_t n, Bool_t k)	        Controlla il numero di divisioni principali, secondarie, ecc. Esempio:   SetNdivisions(510, kTRUE)
+Range asse	            SetRangeUser(Double_t min, Double_t max)	Imposta un range personalizzato per l'asse.
