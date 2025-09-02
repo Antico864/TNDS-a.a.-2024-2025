@@ -3,8 +3,8 @@
 ## Laboratorio di Trattamento Numerico dei Dati Sperimentali 
 ### Anno accademico 2024-2025
 ***
-Qui ci sono tutti gli esercizi di cui è richiesta la consegna, più i programmi di analisi dati per il laboratorio di Ottica e Fisica Moderna. 
-La cartella (Temi d'esame) contiene i temi d'esame che Carminati rende disponibili più altri due. 
+Qui ci sono tutti gli esercizi di cui è richiesta la consegna, più i programmi di analisi dati per il laboratorio di Ottica e Fisica Moderna.   
+  La cartella (Temi d'esame) contiene i temi d'esame che Carminati rende disponibili più altri due. 
 ***
 # Link utili:
 ***
