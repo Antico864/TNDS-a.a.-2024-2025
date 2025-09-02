@@ -4,7 +4,7 @@
 ### Anno accademico 2024-2025
 ***
 Qui ci sono tutti gli esercizi di cui è richiesta la consegna, più i programmi di analisi dati per il laboratorio di Ottica e Fisica Moderna.   
-  La cartella (Temi d'esame) contiene i temi d'esame che Carminati rende disponibili più altri due. 
+  La cartella [Temi d'esame](https://github.com/Antico864/TNDS-a.a.-2024-2025/tree/Home/Temi_d'esame) contiene i temi d'esame che Carminati rende disponibili più altri due. 
 ***
 # Link utili:
 ***
