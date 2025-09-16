@@ -4,7 +4,7 @@
 ### Anno accademico 2024-2025
 ***
 Qui ci sono tutti gli esercizi di cui è richiesta la consegna.   
-  La cartella [Temi d'esame](https://github.com/Antico864/TNDS-a.a.-2024-2025/tree/Home/Temi d'esame) contiene i temi d'esame che Carminati rende disponibili più altri due. 
+  La cartella [Temi d'esame](https://github.com/Antico864/TNDS-a.a.-2024-2025/tree/main/Temi%20d'esame) contiene i temi d'esame che Carminati rende disponibili più altri due. 
 ***
 ### Link utili:
 * [Notebooks dello zio Tom, A.A. 2024/2025: ](https://ziotom78.github.io/tnds-tomasi-notebooks/)
