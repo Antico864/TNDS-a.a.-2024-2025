@@ -1,5 +1,5 @@
-LIBS := `root-config --libs`
-INCS := `root-config --cflags`
+INCS := $(shell root-config --cflags)
+LIBS := $(shell root-config --libs)
 CXXFLAGS = -g3 -Wall --pedantic -std=c++11
 
 myLIBS = Prism.o RandomGen.o functions.o
