@@ -93,9 +93,8 @@ Un MergeSort per `double*`:
 
     delete[] leftArray;
     delete[] rightArray;
-}
-
-void MergeSort(double* & v, int left, int right) {
+}`
+`void MergeSort(double* & v, int left, int right) {
     if (left < right) {
         int mid = left + (right - left)/2;
 
