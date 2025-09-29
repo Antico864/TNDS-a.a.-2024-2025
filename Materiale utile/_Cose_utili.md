@@ -28,7 +28,8 @@ e poi copiarla nel posto giusto da tolab (piger).
 ***
 Un SelectionSort per `double*`:   
 
-  `void scambiaByReference(double &a, double &b) {
+  ```cpp
+void scambiaByReference(double &a, double &b) {
     double c=a;
     a=b;
     b=c;
@@ -46,12 +47,13 @@ void SelectionSort(double * v, int n){
         }
         scambiaByReference ( v[k] , v[imin]);
     }
-}`  
+}```  
   
   
 Un MergeSort per `double*`:  
   
-  `void Merge(double* & v, int left, int right) {
+```cpp
+void Merge(double* & v, int left, int right) {
     int mid = left + (right - left)/2;
     int n1 = mid - left + 1;
     int n2 = right - mid;
@@ -93,8 +95,9 @@ Un MergeSort per `double*`:
 
     delete[] leftArray;
     delete[] rightArray;
-}`
-`void MergeSort(double* & v, int left, int right) {
+}
+
+void MergeSort(double* & v, int left, int right) {
     if (left < right) {
         int mid = left + (right - left)/2;
 
@@ -103,7 +106,7 @@ Un MergeSort per `double*`:
 
         Merge(v, left, right);
     }
-}`
+}```
 
 Si possono modificare abbastanza agevolmente per vector della stl, ovviamente. 
 Si possono usare `v.begin()` e `v.end()`, eventualmente modificati con * all'interno della funzione. 
