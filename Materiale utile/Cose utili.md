@@ -106,7 +106,8 @@ void MergeSort(double* & v, int left, int right) {
 
         Merge(v, left, right);
     }
-}```
+}
+```
 
 Si possono modificare abbastanza agevolmente per vector della stl, ovviamente. 
 Si possono usare `v.begin()` e `v.end()`, eventualmente modificati con * all'interno della funzione. 
