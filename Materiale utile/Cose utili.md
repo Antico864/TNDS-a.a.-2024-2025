@@ -110,11 +110,4 @@ void MergeSort(double* & v, int left, int right) {
 ```
 
 Si possono modificare abbastanza agevolmente per vector della stl, ovviamente. 
-Si possono usare `v.begin()` e `v.end()`, eventualmente modificati con * all'interno della funzione. 
-
-
-
-
-
-scp -r giovanni.bollotta@tolab.fisica.unimi.it:/home/comune/labTNDS_feb08_compito1 ./Users/Antico/Desktop/Giovanni/TNDS/Temi_esame
-
+Si possono usare `v.begin()` e `v.end()`, eventualmente modificati con * all'interno della funzione.
