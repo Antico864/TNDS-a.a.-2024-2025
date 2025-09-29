@@ -8,8 +8,8 @@ Per copiare qualcosa da tolab alla dir corrente:
 
 ***
 
-Con `quota` visualizzo la quota sul disco
-Queste cartelle si possono rimuovere per recuperare spazio su tolab:
+Con `quota` visualizzo la quota sul disco.   
+  Queste cartelle si possono rimuovere per recuperare spazio su tolab:
 `rm -fr .cash .vscode vscodeserver`
 
 ***
