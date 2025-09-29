@@ -17,7 +17,7 @@ Con `quota` visualizzo la quota sul disco.
 ### Per consegnare:
 ***
 Prima di consegnare la directory dell'esame:   
-  clang-format -i *.cpp *.hpp
+  `clang-format -i *.cpp *.hpp`
 
 ***
 Rimuovere tutto quello che non serve; rinominarla in modo univoco e poi fare  
