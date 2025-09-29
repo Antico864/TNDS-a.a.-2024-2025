@@ -47,9 +47,9 @@ void SelectionSort(double * v, int n){
         }
         scambiaByReference ( v[k] , v[imin]);
     }
-}```  
-  
-  
+}
+```  
+
 Un MergeSort per `double*`:  
   
 ```cpp
